@@ -1,0 +1,105 @@
+        /* Estilos para el cuerpo */
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #faffcd;
+            /* Fondo amarillo limón claro */
+        }
+
+        /* Estilos para el contenedor */
+        #contenedor {
+            border: 2px solid black;
+            padding: 20px;
+            width: 70%;
+            background-color: #fff;
+            /* Fondo blanco */
+        }
+
+        /* Estilos para el título */
+        h2 {
+            text-align: center;
+            color: #333;
+            /* Texto oscuro */
+        }
+
+        /* Estilos para el input */
+        input {
+            width: calc(80% - 16px);
+            /* Ancho del 80% y teniendo en cuenta el relleno */
+            padding: 8px;
+            margin-bottom: 10px;
+            display: block;
+            margin: 0 auto;
+            /* Centrado horizontal */
+            text-align: center;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        /* Estilos para el botón */
+        button {
+            width: calc(85% - 16px);
+            /* Ancho del 80% y teniendo en cuenta el relleno */
+            padding: 10px;
+            background-color: #4caf50;
+            /* Verde */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto;
+            /* Centrado horizontal */
+        }
+
+        /* Estilos para el resultado */
+        #resultado {
+            font-weight: bold;
+            text-align: center;
+            /* Centrado horizontal */
+            font-weight: 700;
+            font-size: 20px;
+            height: 200px;
+        }
+
+        /* Estilos para los números en el arreglo */
+        .numero-arreglo {
+            background-color: #ffff66;
+            /* Amarillo */
+            padding: 5px;
+            margin: 2px;
+            padding-bottom: 5px;
+            text-align: center;
+            font-weight: 700;
+            font-size: 20px;
+            padding-top: 5px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        /* Estilos para los párrafos */
+        p {
+            display: block;
+            margin: 0;
+            padding: 10px 0;
+            line-height: 1.5; /* Ajusta el valor según sea necesario */
+        }
+
+        /* Resalta el número buscado en verde */
+        .resaltado {
+            background-color: #4caf50;
+            /* Verde */
+            color: white;
+            padding: 5px;
+            border-radius: 4px;
+            /* Ajustado a 4px */
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            /* Corregido: Cambiado a "padding-bottom" */
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
