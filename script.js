@@ -1,5 +1,5 @@
-// Generar un arreglo ordenado de números del 5 al 80
-const numeros = Array.from({ length: 80 }, (_, index) => index + 5);
+// Generar un arreglo ordenado de números del 5 al 84
+const numeros = Array.from({ length: 84 }, (_, index) => index + 5);
 
 // Función de búsqueda binaria
 function busquedaBinaria(arr, target) {
