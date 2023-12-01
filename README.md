@@ -31,6 +31,12 @@ La búsqueda binaria es un algoritmo eficiente que busca un elemento en un arreg
 2. Haz clic en el botón "Buscar".
 3. Se mostrará la lista de números y el resultado de la búsqueda.
 
+### Imagenes de la App
+
+![Descripción de la imagen 1](Screenshot_43.png)
+![Descripción de la imagen 2](Screenshot_46.png)
+![Descripción de la imagen 3](Screenshot_47.png)
+
 ¡Experimenta con diferentes números para ver cómo funciona la búsqueda binaria en acción!
 
 🚀 ¡Disfruta explorando este proyecto!
